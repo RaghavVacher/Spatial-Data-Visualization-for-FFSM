@@ -8,7 +8,7 @@ This is a visualization of the following variables (unit), in the Indian sub-con
 - Total Precipitation (m)
 - Evaporation (m of water equivalent)
 - Heavy Vegetation (m/s²)
-- Light Vegetation (m/s²)
+- Low Vegetation (m/s²)
 
 Using the ```ncdf4``` & ```fields``` libraries in R respectively. The purpose of this activity being: exploratory data analysis for future use in creating a forest fire susceptibility model for the Indian sub-continent.
 
@@ -27,7 +27,7 @@ Accumulated amount of water that has evaporated from the Earth's surface, includ
 - **Heavy Vegetation** (m/s²):
 One-half of the total green leaf area per unit horizontal ground surface area for high vegetation type.
 
-- **Light Vegetation** (m/s²):
+- **Low Vegetation** (m/s²):
 One-half of the total green leaf area per unit horizontal ground surface area for low vegetation type.
 
 
