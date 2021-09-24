@@ -3,14 +3,14 @@
 Introduction
 -------------
 
-This is a visualization of the following variables, in the Indian sub-continent:
-- Surface Temperature
-- Total Precipitation
-- Evaporation
-- Heavy Vegetation
-- Light Vegetation
+This is a visualization of the following variables (unit), in the Indian sub-continent:
+- Surface Temperature (K)
+- Total Precipitation (m)
+- Evaporation (m of water equivalent)
+- Heavy Vegetation (m**2 m**-2)
+- Light Vegetation (m**2 m**-2)
 
-Using the ncdf4 & fields libraries in R respectively. The purpose of this activity being: exploratory data analysis for future use in creating a forest fire susceptibility model for the Indian sub-continent.
+Using the ```ncdf4``` & ```fields``` libraries in R respectively. The purpose of this activity being: exploratory data analysis for future use in creating a forest fire susceptibility model for the Indian sub-continent.
 
 
 
