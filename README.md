@@ -7,10 +7,10 @@ This is a visualization of the following variables, in the Indian sub-continent:
 - Surface Temperature
 - Total Precipitation
 - Evaporation
-- Heavy Vegitation
-- Light Vegitation
+- Heavy Vegetation
+- Light Vegetation
 
-Using the ncdf4 & fields libraries in R respectively. The purpose for this activity being: exploratory data analysis for future use in creating a forest fire suseptibility model for the Indian sub-continent.
+Using the ncdf4 & fields libraries in R respectively. The purpose of this activity being: exploratory data analysis for future use in creating a forest fire susceptibility model for the Indian sub-continent.
 
 
 
