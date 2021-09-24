@@ -12,7 +12,7 @@ lati <- ncvar_get(nc, "latitude")
 longs <- sort(long)
 latis <- sort(lati)
 
-#sxtracting the 5 variables in the dataset on the bases of: longitude, latitude, time
+#extracting the 5 variables in the dataset on the bases of: longitude, latitude, time
 tp <- ncvar_get(nc, "tp", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
 e <- ncvar_get(nc, "e", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
 skt <- ncvar_get(nc, "skt", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
