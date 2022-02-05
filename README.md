@@ -4,18 +4,20 @@ Introduction
 -------------
 
 This is a visualization of the following variables (unit), in the Indian sub-continent:
-- Surface Temperature (K)
+- Skin Temperature (K)
 - Total Precipitation (m)
 - Evaporation (m of water equivalent)
 - Heavy Vegetation (m/s²)
 - Low Vegetation (m/s²)
+- 2m Dewpoint Temperature (K)
+- Skin Reservoir Content (m)
 
 Using the ```ncdf4``` & ```fields``` libraries in R respectively. The purpose of this activity being: exploratory data analysis for future use in creating a forest fire susceptibility model for the Indian sub-continent.
 
 Variable Descriptions
 -------------------------
 
-- **Surface Temperature** (K):
+- **Skin Temperature** (K):
 Temperature of the surface of the Earth. The skin temperature is the theoretical temperature that is required to satisfy the surface energy balance. It represents the temperature of the uppermost surface layer, which has no heat capacity and so can respond instantaneously to changes in surface fluxes. Skin temperature is calculated differently over land and sea. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.
 
 - **Total Precipitation** (m):
@@ -30,6 +32,11 @@ One-half of the total green leaf area per unit horizontal ground surface area fo
 - **Low Vegetation** (m/s²):
 One-half of the total green leaf area per unit horizontal ground surface area for low vegetation type.
 
+- **2m Dewpoint Temperature** (K):
+Temperature to which the air, at 2 metres above the surface of the Earth, would have to be cooled for saturation to occur.It is a measure of the humidity of the air. Combined with temperature and pressure, it can be used to calculate the relative humidity. 2m dew point temperature is calculated by interpolating between the lowest model level and the Earth's surface, taking account of the atmospheric conditions. Temperature measured in kelvin can be converted to degrees Celsius (°C) by subtracting 273.15.
+
+- **Skin Reservoir Content** (m):
+Amount of water in the vegetation canopy and/or in a thin layer on the soil. It represents the amount of rain intercepted by foliage, and water from dew. The maximum amount of 'skin reservoir content' a grid box can hold depends on the type of vegetation, and may be zero. Water leaves the 'skin reservoir' by evaporation.
 
 Citations
 ------------
