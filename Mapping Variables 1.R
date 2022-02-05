@@ -18,6 +18,8 @@ e <- ncvar_get(nc, "e", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
 skt <- ncvar_get(nc, "skt", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
 lai_hv <- ncvar_get(nc, "lai_hv", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
 lavi_lv <- ncvar_get(nc, "lai_lv", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
+d2m <- ncvar_get(nc, "d2m", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
+src <- ncvar_get(nc, "src", start = c(1 ,1 , 1), count = c(-1 , -1, 1))
 
 #plotting the variables using image.plot from the fields package and saving them as .png files
 png("tp.png", width = 800, height = 1000)
@@ -38,4 +40,12 @@ dev.off()
 
 png("lai_lv.png", width = 800, height = 1000)
 image.plot(longs, latis, lavi_lv)
+dev.off()
+
+png("d2m.png", width = 800, height = 1000)
+image.plot(longs, latis, d2m)
+dev.off()
+
+png("src.png", width = 800, height = 1000)
+image.plot(longs, latis, src)
 dev.off()
